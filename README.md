@@ -1,56 +1,31 @@
-umarugo
+うまるGo
 ========
 
 
-_himouto umaru language interpreter_
+_干物妹!うまるちゃんに習って食う・寝る・遊ぶの３つの言葉を使って遊ぶプログラミング言語です_
+_うまるGoは、[whitespace](https://ja.wikipedia.org/wiki/Whitespace)をもとにしております。_
 
 [![Build Status](https://travis-ci.org/135yshr/umarugo.png?branch=master)](https://travis-ci.org/135yshr/umarugo)
 
-## Project Setup
-
-_How do I, as a developer, start working on the project?_ 
+## インストール
 
 ```
-go get github.com/r7kamura/gospel
 go get github.com/135yshr/umarugo
-```
-
-## Testing
-
-Using the [gospel](https://github.com/r7kamura/gospel) to the test framework.
-
-### Unit Tests
-
-1. `go test` or `go test ./...`
-
-### Integration Tests
-
-1. commit to the repository
-2. Travis ci takes care of running the test automatically after a while.
-
-## Deploying
-
-### How to setup the deployment environment
-
-- Please install the execution environment of the golang.
-- Use the command go get, please get the gospel from github.
-
-### How to deploy
-
-```
+cd $GOPATH/src/github.com/135yshr/umarugo
 go install
 ```
 
+## サンプル
 
-## Troubleshooting & Useful Tools
+プロジェクト内に[hello world](https://github.com/135yshr/umarugo/blob/master/hello_world.umr)を用意しました。
 
-_error git push_
+```
+umarugo $GOPATH/src/github.com/135yshr/umarugo/hello_world.umr
+```
 
-> remote: Invalid username or password.
-> fatal: Authentication failed for 'https://github.com/135yshr/wspacego/'
-> 
-> - change push repository  
-> `git remote set-url origin git@github.com:135yshr/umarugo.git`
+## 言語仕様
+
+_ただいま作成中_
 
 ## Change history
 

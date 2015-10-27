@@ -4,7 +4,7 @@ umarugo
 
 _himouto umaru language interpreter_
 
-[![Build Status](https://travis-ci.org/135yshr/umrgo.png?branch=master)](https://travis-ci.org/135yshr/umrgo)
+[![Build Status](https://travis-ci.org/135yshr/umarugo.png?branch=master)](https://travis-ci.org/135yshr/umarugo)
 
 ## Project Setup
 
@@ -12,7 +12,7 @@ _How do I, as a developer, start working on the project?_
 
 ```
 go get github.com/r7kamura/gospel
-go get github.com/135yshr/umrgo
+go get github.com/135yshr/umarugo
 ```
 
 ## Testing
@@ -50,7 +50,7 @@ _error git push_
 > fatal: Authentication failed for 'https://github.com/135yshr/wspacego/'
 > 
 > - change push repository  
-> `git remote set-url origin git@github.com:135yshr/umrgo.git`
+> `git remote set-url origin git@github.com:135yshr/umarugo.git`
 
 ## Change history
 
